@@ -1,0 +1,31 @@
+@media(max-width:991px){
+    .logo{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        
+    }
+    .header__nav-menu{
+        background: black;
+        text-align: center;
+        color: white;
+    }
+    .header__nav-menu li{
+        margin: 0;
+    }
+    .header__nav-link{
+        padding: 10px 0;
+        display: block;
+        border-bottom: 1px solid white;
+        margin-left: 0;  
+    }
+    .header__nav-card{
+        width: 100%;
+    }
+    .header__nav-btn{
+        position: absolute;
+        opacity: 0;
+        background: red;
+    }
+}

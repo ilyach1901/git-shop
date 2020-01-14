@@ -1,0 +1,467 @@
+@import 'bootstrap.css';
+@import 'icon.min.css';
+@import 'font.css';
+@import 'root.css';
+
+.header__pre-nav {
+    background: black;
+}
+
+.header__pre-num {
+    color: white;
+    text-transform: uppercase;
+}
+
+.header__pre-num:hover {
+    color: white;
+    text-shadow: 0 0 3px white;
+}
+
+.header__btn {
+    background: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-right: 1px solid #444444;
+}
+
+.header__btn_b-l {
+    border-left: 1px solid #444444;
+}
+
+.header__nav {
+    padding: 20px 0;
+}
+
+.header__nav-btn {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    color: #949393;
+}
+
+.header__nav-btn i {
+    transition: 500ms;
+}
+
+.header__nav-btn[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+
+.header__nav-card {
+    border: 1px solid #d6d6d6;
+    width: 215px;
+    margin-left: 85px;
+}
+
+.header__nav-card p {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #949393;
+}
+
+.header__nav-menu li {
+    margin-left: 25px;
+}
+
+.header__nav-menu li:hover a {
+    text-shadow: 0 0 3px black;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header__slider {
+    background: #12110f;
+}
+
+.header__slider-desc {
+    max-width: 510px;
+}
+
+.header__slider-title {
+    font-size: 90px;
+    color: #eee6e4;
+    font-family: 'roboto';
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 75px;
+}
+
+.buy-btn {
+    background: #1f1f1f;
+    border: 3px solid #000005;
+    padding: 15px 25px;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    color: white;
+    transition: 500ms;
+}
+
+.buy-btn:hover {
+    text-shadow: 0 0 3px white;
+    color: white;
+    box-shadow: 0px 0px 10px 0 white inset;
+}
+
+.header__slider-info {
+    color: #eee6e4;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'roboto';
+    font-weight: 500;
+    text-align: center;
+}
+
+.header__slider .carousel-indicators {
+    position: relative;
+    background: white;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.header__slider .carousel-indicators li {
+    border: none;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #867a76;
+    opacity: 1;
+}
+
+.header__slider .carousel-indicators li.active {
+    background: black;
+}
+
+.nav-item .nav-link.active{    
+    background: #000000;   
+    color: var(--white);
+}
+.nav-item .nav-link{
+    border-bottom: none;
+}
+
+.nav-item a {
+    /* color: var(--white); */
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px;
+}
+.header__social{
+    background: #000000;
+    height: 60px;
+}
+.form-group{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ 
+.form-group input{    
+    max-width: 160px;
+    border-radius:1px;
+    padding-top: 10px;
+    color: #b2b2b2;
+    font-family: 'arial_italic';
+    font-weight: 500;
+    font-size: 12px;
+}
+.form-group button{
+    height: 32px; 
+    border: none;   
+    border-radius:1px;   
+    background: white;
+    color: #b2b2b2;
+    font-family: 'arial_italic';
+    font-weight: 500;
+    font-size: 12px;
+}
+.form-group button:hover{
+    background: white;
+    color: black;
+    border: none;
+}
+.social__networks p{
+    color: #ffffff;
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+.card-product {
+    position: relative;
+}
+
+.card-product__discount {
+    position: relative;
+}
+
+.card-product__sale {
+    position: absolute;
+    background: #4c4c4c;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.card-product__sale::before {
+    content: '';
+    width: 70.71px;
+    height: 70.71px;
+    background: #ffffff;
+    position: absolute;
+    top: 14.5px;
+    left: 14.5px;
+    display: block;
+    transform: rotate(45deg);
+
+}
+
+.tab-content {
+    background: #000000;
+
+}
+
+.card-product__discount {
+    font-weight: 600;
+    color: #4c4c4c;
+}
+
+.card-product__sales {
+    color: #ffffff;
+    font-family: 'helvetica';
+    font-weight: 400;
+
+
+}
+
+.card-product__desc {
+    background: #f7f7f7;
+}
+
+.card-product__title {
+    color: #373737;
+    font-family: 'arial';
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+
+}
+
+.card-product__price {
+    color: #373737;
+    font-family: 'arial';
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.navbar-toggler{
+    margin: 0 auto;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 1px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 30px;
+    padding: 20px;
+}
+.navbar-toggler i {
+    transition: 500ms;
+}
+
+.navbar-toggler[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+
+.facebook{
+    background: #f7f7f7;
+    color: #6b6b6b;       
+    padding:23px 25px ;
+}
+.facebook:hover{
+    background: #6b6b6b;
+    
+}
+
+.twitter{
+    background: #f7f7f7;
+    color: #6b6b6b;        
+    padding:23px 25px ;
+}
+.twitter:hover{
+    background: #6b6b6b;
+    
+}
+.pinterest{
+    background: #f7f7f7;
+    color: #6b6b6b;        
+    padding:23px 25px ;
+}
+.pinterest:hover{
+    background: #6b6b6b;
+    
+}
+.card__img img{
+    max-width: 160px;
+    margin: 25px;
+}
+.card__img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__img::before{
+    content: '';
+    width: 395px;
+    height: 2px;
+    display: block;    
+    background: linear-gradient(transparent, #d6d6d6, transparent);
+    
+    
+}
+.card__img::after{
+    content: '';
+    width: 395px;
+    height: 2px;
+    display: block; 
+    background: linear-gradient(transparent, #d6d6d6, transparent);       
+    
+    
+    
+}
+.card-product__descript{
+    background: #f7f7f7;
+    
+}
+section.brands{
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6 ;
+    margin-top: 50px;
+}
+.brands p{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: -13px;
+    background: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    color: #414141;    
+    font-family: 'arial';
+    font-weight: 600;
+}
+.brands img::after{
+    content: '';
+    width: 560px;
+    height: 1px;
+    display: block;    
+    background: linear-gradient(to right, transparent, gray, transparent);          
+}
+.brands img{
+    width: auto;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.mans-shop h3{   
+    font-family: 'arial';
+    font-weight: 500;
+    font-size: 24px;
+    color: #414141;
+    line-height: 80px;
+}
+.mans-shop p{
+    width: 980px;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 50px;
+}
+
+
+
+ 
+footer{
+    background: black;
+    padding: 50px 0;
+}
+footer img{
+    width: auto;
+    padding-top: 20px;
+}
+footer h4{
+    margin-bottom: 20px;
+    font-family: 'arial';
+    font-weight: 800;
+    font-size: 16px;
+    color: #ffffff;
+}
+footer a{
+    margin-bottom: 20px;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+footer span{
+    margin-left:10px ;
+    margin-right:10px ;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+.social-foot li{
+    margin-top: 50px;
+}
+.social-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4c4c4b;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.address a{
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 11px;   
+}
+.address p{
+    font-family: 'arial';
+    font-weight: 400;
+    font-size: 11px; 
+    color: #ffffff;
+    margin-top: 5px;
+}

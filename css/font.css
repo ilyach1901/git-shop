@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'arial';
+    src: url(../fonts/arial/arial.ttf);
+}
+@font-face{
+    font-family: 'arial_italic';
+    src: url(../fonts/arial_italic/arial_italic.ttf);
+}
+@font-face{
+    font-family: 'roboto';
+    src: url(../fonts/roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'roboto';
+    src: url(../fonts/roboto/Roboto-BoldItalic.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'helvetica';
+    src: url(../fonts/helvetica/HelveticaBold/HelveticaBold.ttf);
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'helvetica';
+    src: url(../fonts/helvetica/HelveticaMedium/HelveticaMedium.ttf);
+    font-weight: 500;
+}
